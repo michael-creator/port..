@@ -1,0 +1,74 @@
+{% load bootstrap3 %}
+{% load static %}
+<!-- <h1> ata wewe harrrrrroo</h1>
+
+ -->
+<!DOCTYPE html>
+
+<head>
+
+    <title>michael portfolio</title>
+    {% block styles %}
+    {% bootstrap_css %}
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="{% static '/css/main.css'  %} " rel="stylesheet" type="text/css">
+  {% endblock %}
+    
+    
+    
+</head>
+
+<body>
+    <br><br>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card card-body" id="profile-wrapper">
+                <img id="profile-pic" src="{% static 'images/insta.png' %}">
+                <br><br>
+                <h4>hi am michael maina </h4>
+                <p>i like coding and learning new things </p>
+            </div>
+        </div>
+        <div class="col-md-9">
+        <div class="card card-body">
+            
+            </div>
+        </div>
+        <br><br>
+        <div class="col-md-6">
+            <div class="card card-body">
+                
+            </div>
+            </div>
+
+
+        <div class="col-md-6">
+                <div class="card card-body">
+                    
+                </div>
+                </div>
+        <br><br>
+
+        <div class="col-md-6">
+        <div class="card card-body">
+            
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card card-body">
+                
+            </div>
+            </div>
+         <br><br>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

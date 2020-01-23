@@ -1,0 +1,17 @@
+body{
+   background-color: #d3d3d3;
+}
+img{
+    width: 230px;
+    height: 250px;
+}
+#profile-wrapper{
+text-align: center;
+}
+#profile-pic{
+    width: 150px;
+    height:150px ;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

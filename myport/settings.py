@@ -36,7 +36,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles', 
+    'portfolios',
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
@@ -118,3 +120,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/images/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
